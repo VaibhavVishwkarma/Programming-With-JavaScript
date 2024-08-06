@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 153, 0);
+    width: 140px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 600;
+    box-shadow: 1px 1px 10px rgb(255, 27, 2);
+}
